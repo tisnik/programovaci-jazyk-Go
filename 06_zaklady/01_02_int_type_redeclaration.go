@@ -14,11 +14,12 @@ import "fmt"
 type int = float32
 
 func main() {
-	// proměnná "pi" je sice typu "int", ovšem na rozdíl od jména
+	// proměnná nazvaná "pi" je sice typu "int", ovšem na rozdíl od jména
 	// typu se jedná o numerickou hodnotu s plovoucí řádovou čárkou
 	var pi int
 
 	// nyní můžeme do proměnné přiřadit hodnotu s plovoucí řádovou čárkou
+	// i když se (zdánlivě) jedná o proměnnou celočíselného typu
 	pi = 3.14
 	fmt.Println(pi)
 }
