@@ -14,7 +14,8 @@ func main() {
 	// přístup k původní hodnotě true (což většinou nechceme!)
 	var true string = "pravda"
 
-	// deklarace proměnné, která je ve skutečnosti typu "bool"
+	// deklarace proměnné, která je ve skutečnosti typu "string"
+	// (překladač nyní použije hodnotu proměnné "true")
 	var answer string = true
 	fmt.Println(answer)
 }
