@@ -8,10 +8,10 @@ package main
 
 func main() {
 	// pokus o použití klíčového slova "interface"
-	// jako identifikátoru
+	// jako identifikátoru při deklaraci konstanty
 	const interface int = 10
 
 	// pokus o použití klíčového slova "type"
-	// jako identifikátoru
+	// jako identifikátoru při deklaraci proměnné
 	var type string = "Škoda 100"
 }
