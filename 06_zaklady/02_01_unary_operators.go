@@ -1,6 +1,6 @@
 // Základy programovacího jazyka Go
 //
-// - unární operátory
+// - unární operátory definované v jazyku Go
 
 package main
 
