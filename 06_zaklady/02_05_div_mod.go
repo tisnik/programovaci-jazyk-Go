@@ -1,6 +1,7 @@
 // Základy programovacího jazyka Go
 //
 // - operátory pro celočíselný podíl a výpočet zbytku po dělení
+// - použití pro různé kombinace kladných i záporných operandů
 
 package main
 
@@ -8,7 +9,8 @@ import "fmt"
 
 // Výpočet podílu a zbytku po dělení
 func computeDivMod(x, y int) {
-	fmt.Printf("%3d / %2d = %3d   %3d %% %2d = %3d\n", x, y, x/y, x, y, x%y)
+	fmt.Printf("%3d / %2d = %3d   %3d %% %2d = %3d\n",
+		x, y, x/y, x, y, x%y)
 }
 
 func main() {
@@ -21,7 +23,8 @@ func main() {
 
 	fmt.Println()
 
-	// tabulka s výsledky zbytku po dělení 100/i pro i od 1 do 10
+	// tabulka s výsledky zbytku po dělení 100/i
+	// pro hodnoty i v rozsahu od 1 do 10
 	for i := 1; i <= 10; i++ {
 		computeDivMod(100, i)
 	}
