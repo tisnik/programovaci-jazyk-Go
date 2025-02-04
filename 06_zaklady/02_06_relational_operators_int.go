@@ -12,13 +12,13 @@ func main() {
 	var x int = 1
 	var y int = 2
 
-	// výpis původních hodnot
+	// výpis původních hodnot proměnných
 	fmt.Printf("x = %d\n", x)
 	fmt.Printf("y = %d\n", y)
 
 	fmt.Println()
 
-	// výpis výsledků operací
+	// výpis výsledků relačních operací s proměnnými
 	fmt.Printf("x == y: %t\n", x == y)
 	fmt.Printf("x != y: %t\n", x != y)
 	fmt.Printf("x > y: %t\n", x > y)
