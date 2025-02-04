@@ -1,7 +1,7 @@
 // Základy programovacího jazyka Go
 //
 // - základní aritmetické operátory s proměnnými
-//   typu complex
+//   typu complex64
 
 package main
 
@@ -12,13 +12,13 @@ func main() {
 	var x complex64 = 1 + 1i
 	var y complex64 = 2 + 2i
 
-	// výpis původních hodnot
+	// výpis původních hodnot proměnných
 	fmt.Printf("x = %v\n", x)
 	fmt.Printf("y = %v\n", y)
 
 	fmt.Println()
 
-	// výpis výsledků operací
+	// výpis výsledků aritmetických operací s proměnnými
 	fmt.Printf("x+y = %v\n", x+y)
 	fmt.Printf("x-y = %v\n", x-y)
 	fmt.Printf("x*y = %v\n", x*y)
