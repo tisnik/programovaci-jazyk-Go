@@ -1,6 +1,6 @@
 // Základy programovacího jazyka Go
 //
-// - základní aritmetické operátory s proměnnými
+// - základní aritmetické operátory použité s proměnnými
 //   typu int
 
 package main
@@ -12,13 +12,13 @@ func main() {
 	var x int = 10
 	var y int = 3
 
-	// výpis původních hodnot
+	// výpis původních hodnot proměnných
 	fmt.Printf("x = %d\n", x)
 	fmt.Printf("y = %d\n", y)
 
 	fmt.Println()
 
-	// výpis výsledků operací
+	// výpis výsledků aritmetických operací s proměnnými
 	fmt.Printf("x+y = %d\n", x+y)
 	fmt.Printf("x-y = %d\n", x-y)
 	fmt.Printf("x*y = %d\n", x*y)
