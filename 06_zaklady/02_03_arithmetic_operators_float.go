@@ -12,13 +12,13 @@ func main() {
 	var x float32 = 1.1
 	var y float32 = 2.2
 
-	// výpis původních hodnot
+	// výpis původních hodnot proměnných
 	fmt.Printf("x = %f\n", x)
 	fmt.Printf("y = %f\n", y)
 
 	fmt.Println()
 
-	// výpis výsledků operací
+	// výpis výsledků aritmetických operací s proměnnými
 	fmt.Printf("x+y = %f\n", x+y)
 	fmt.Printf("x-y = %f\n", x-y)
 	fmt.Printf("x*y = %f\n", x*y)
