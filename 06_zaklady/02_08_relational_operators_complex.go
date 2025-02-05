@@ -12,13 +12,13 @@ func main() {
 	var x complex64 = 1 + 0i
 	var y complex64 = 1 + 1i
 
-	// výpis původních hodnot
+	// výpis původních hodnot proměnných
 	fmt.Printf("x = %v\n", x)
 	fmt.Printf("y = %v\n", y)
 
 	fmt.Println()
 
-	// výpis výsledků operací
+	// výpis výsledků relačních operací s proměnnými
 	fmt.Printf("x == y: %t\n", x == y)
 	fmt.Printf("x != y: %t\n", x != y)
 }
