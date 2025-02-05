@@ -2,6 +2,7 @@
 //
 // - deklarace funkce s parametry, ale bez návratové hodnoty
 // - parametry stejného typu jsou deklarovány společně
+// - funkce je volána s nekorektními typy argumentů
 
 package main
 
@@ -14,6 +15,6 @@ func printSum(x, y int) {
 }
 
 func main() {
-	// zavolání funkce s předáním parametrů
+	// zavolání funkce s předáním argumentů nekorektních typů
 	printSum(1.5, "foo")
 }
