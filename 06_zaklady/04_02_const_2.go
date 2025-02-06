@@ -1,5 +1,6 @@
 // Základy programovacího jazyka Go
 //
+// - použití klíčového slova const
 // - deklarace konstanty "a" globální pro celý modul
 // - deklarace konstanty "b", která je platná jen v těle funkce "main"
 // - deklarace konstanty "c", která je platná v jednom vnořeném bloku
