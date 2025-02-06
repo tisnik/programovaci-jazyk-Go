@@ -1,5 +1,6 @@
 // Základy programovacího jazyka Go
 //
+// - použití klíčového slova const
 // - rozdíl mezi veřejnou (public) konstantou a konstantou soukromou (private)
 
 package main
