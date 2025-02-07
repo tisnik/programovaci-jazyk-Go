@@ -1,6 +1,6 @@
 // Základy programovacího jazyka Go
 //
-// - logické operátory
+// - logické operátory (pro hodnoty typu bool)
 
 package main
 
