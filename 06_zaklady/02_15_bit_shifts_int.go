@@ -14,7 +14,7 @@ func main() {
 	fmt.Printf("x =     %08b\n", x)
 
 	// zobrazení hodnoty x po jejím posunu doprava a doleva
-	// o jeden bit
+	// vždy o jeden bit
 	fmt.Printf("x>>1 =  %08b\n", x>>1)
 	fmt.Printf("x<<1 =  %08b\n", x<<1)
 }
