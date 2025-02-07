@@ -16,7 +16,7 @@ func main() {
 	fmt.Printf("x =      %08b\n", x)
 	fmt.Printf("y =      %08b\n", y)
 
-	// výpis výsledků operací
+	// výpis výsledků bitových operací
 	fmt.Printf("neg x =  %08b\n", ^x)
 	fmt.Printf("neg y =  %08b\n", ^y)
 	fmt.Printf("x && y = %08b\n", x&y)
