@@ -11,7 +11,7 @@ func main() {
 	// původní hodnota x
 	var x int = 1
 
-	// zobrazení původní hodnoty x
+	// zobrazení původní hodnoty uložené v x
 	fmt.Printf("x = %d\n", x)
 
 	// modifikace x aritmetickou operací +
