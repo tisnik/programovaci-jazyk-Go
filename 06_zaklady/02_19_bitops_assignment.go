@@ -2,6 +2,8 @@
 //
 // - operátory pro bitové operace kombinované
 //   s přiřazením (použito u proměnné typu byte)
+// - použití celočíselných konstant zapsaných
+//   ve dvojkové soustavě
 
 package main
 
