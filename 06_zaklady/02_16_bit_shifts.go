@@ -11,6 +11,7 @@ func main() {
 	var x int = 1
 
 	// postupné násobení hodnoty x mocninami dvojky
+	// (čítač i je použit na pravé straně operátoru posunu)
 	for i := uint(0); i <= 10; i++ {
 		fmt.Printf("%d << %2d == %4d\n", x, i, x<<i)
 	}
@@ -21,6 +22,7 @@ func main() {
 	x = 10000000
 
 	// postupné dělení hodnoty x mocninami dvojky
+	// (čítač i je použit na pravé straně operátoru posunu)
 	for i := uint(0); i <= 10; i++ {
 		fmt.Printf("%d >> %2d == %4d\n", x, i, x>>i)
 	}
