@@ -1,6 +1,6 @@
 // Základy programovacího jazyka Go
 //
-// - spojení řetězců
+// - spojení řetězců operátorem +
 
 package main
 
@@ -11,7 +11,7 @@ func main() {
 	var x string = "Hello "
 	var y string = "world!"
 
-	// výpis původních hodnot
+	// výpis původních hodnot proměnných
 	fmt.Printf("x = '%s'\n", x)
 	fmt.Printf("y = '%s'\n", y)
 
