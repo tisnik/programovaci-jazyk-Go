@@ -1,6 +1,7 @@
 // Základy programovacího jazyka Go
 //
 // - nekorektní způsob použití operací ++ a --
+// POZOR: tento příklad není možné přeložit
 
 package main
 
