@@ -13,8 +13,14 @@ func main() {
 	// výpis původní hodnoty
 	fmt.Printf("z = %v\n", z)
 
-	// zvýšení hodnoty x o jedničku
+	// zvýšení hodnoty uložené v proměnné x o jedničku
 	z++
+
+	// výpis nové hodnoty
+	fmt.Printf("z = %v\n", z)
+
+	// snížení hodnoty uložené v proměnné x o jedničku
+	z--
 
 	// výpis nové hodnoty
 	fmt.Printf("z = %v\n", z)
