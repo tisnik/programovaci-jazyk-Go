@@ -1,11 +1,13 @@
 // Základy programovacího jazyka Go
 //
+// - použití klíčového slova const
 // - konstanty inicializované konstantím výrazem
 
 package main
 
 import "fmt"
 
+// globální konstanty
 const (
 	x = 10
 	y = 20 * x
@@ -13,6 +15,7 @@ const (
 )
 
 func main() {
+	// lokální konstanta
 	const w = x * 0.5
 
 	// výpis hodnot a typů všech čtyř konstant
