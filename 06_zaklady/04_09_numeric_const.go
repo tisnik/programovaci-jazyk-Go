@@ -1,5 +1,6 @@
 // Základy programovacího jazyka Go
 //
+// - použití klíčového slova const
 // - základní vlastnosti numerických konstant
 
 package main
