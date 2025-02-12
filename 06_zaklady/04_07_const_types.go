@@ -1,5 +1,6 @@
 // Základy programovacího jazyka Go
 //
+// - použití klíčového slova const
 // - konstanta bez explicitně definovaného typu
 // - konstanta s definovaným typem hodnoty
 // - pokus o přiřazení do proměnných typu MyString
