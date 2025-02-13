@@ -1,5 +1,6 @@
 // Základy programovacího jazyka Go
 //
+// - použití klíčového slova var
 // - deklarace globální proměnné
 // - proměnná má výchozí (nulovou) hodnotu
 // - proměnná je viditelná mimo rámec balíčku
