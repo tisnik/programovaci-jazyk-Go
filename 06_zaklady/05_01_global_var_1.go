@@ -1,5 +1,6 @@
 // Základy programovacího jazyka Go
 //
+// - použití klíčového slova var
 // - deklarace globální proměnné
 // - modifikace globální proměnné ve funkci
 
