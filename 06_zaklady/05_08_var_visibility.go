@@ -1,5 +1,6 @@
 // Základy programovacího jazyka Go
 //
+// - použití klíčového slova var
 // - oblast viditelnosti proměnných
 
 package main
