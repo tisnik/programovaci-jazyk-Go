@@ -1,5 +1,6 @@
 // Základy programovacího jazyka Go
 //
+// - použití klíčového slova var
 // - deklarace lokální proměnné v rámci bloku
 
 package main
