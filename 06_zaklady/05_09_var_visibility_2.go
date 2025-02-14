@@ -1,5 +1,6 @@
 // Základy programovacího jazyka Go
 //
+// - použití klíčového slova var
 // - oblast viditelnosti proměnných
 // - doplnění komentářů o hodnoty, které se vypíšou po spuštění
 
