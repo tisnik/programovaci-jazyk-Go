@@ -1,3 +1,8 @@
+// Základy programovacího jazyka Go
+//
+// - větší množství konstrukcí defer
+// - ověření pořadí volání
+
 package main
 
 import "fmt"
@@ -7,6 +12,7 @@ func onFinish(i int) {
 }
 
 func main() {
+	// větší množství konstrukcí defer
 	defer onFinish(1)
 	defer onFinish(2)
 	defer onFinish(3)
