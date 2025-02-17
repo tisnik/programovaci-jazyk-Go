@@ -1,0 +1,16 @@
+// Pole v programovacím jazyku Go
+//
+// - deklarace lokální konstanty s polem
+// - použití typové inference
+// - inicializace pole
+
+package main
+
+import "fmt"
+
+func main() {
+	// deklarace pole s jeho inicializací
+	a1 := [10]int{10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+
+	fmt.Println(a1)
+}
