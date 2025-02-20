@@ -1,4 +1,4 @@
-// Řetězce v programovacím jazyce Go
+// Řetězce v programovacím jazyku Go
 //
 // - prázdný řetězec
 // - řetězce s řídicími znaky
