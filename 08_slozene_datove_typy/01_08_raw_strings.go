@@ -1,4 +1,4 @@
-// Řetězce v programovacím jazyce Go
+// Řetězce v programovacím jazyku Go
 //
 // - deklarace a použití takzvaných surových řetězců
 
