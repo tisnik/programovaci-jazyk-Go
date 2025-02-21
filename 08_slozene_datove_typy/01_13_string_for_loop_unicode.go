@@ -1,4 +1,4 @@
-// Řetězce v programovacím jazyce Go
+// Řetězce v programovacím jazyku Go
 //
 // - řetězec obsahující Unicode znaky
 // - průchod jednotlivými bajty tvořícími řetězec
