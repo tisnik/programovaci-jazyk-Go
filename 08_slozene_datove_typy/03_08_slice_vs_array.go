@@ -1,3 +1,7 @@
+// Řezy v programovacím jazyku Go
+//
+// - rozdíl mezi řezem a polem
+
 package main
 
 import "fmt"
