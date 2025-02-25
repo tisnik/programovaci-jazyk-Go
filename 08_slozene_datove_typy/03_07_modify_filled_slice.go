@@ -1,3 +1,4 @@
+// Řezy v programovacím jazyku Go
 package main
 
 import "fmt"
