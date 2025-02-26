@@ -29,6 +29,7 @@ func displayShapeInfo(shape Shape) {
 	area := shape.area()
 	fmt.Println("Area: ", area)
 
+	// pokus o přímé přetypování
 	square := Square(shape)
 	fmt.Println("Side length: ", square.sideLength)
 }
