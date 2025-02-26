@@ -37,10 +37,12 @@ func (rectangle Rectangle) area() float64 {
 	return rectangle.width * rectangle.height
 }
 
+// deklarace uživatelského typu
 type Circle struct {
 	radius float64
 }
 
+// implementace metody předepsané v rozhraní Shape
 func (circle Circle) area() float64 {
 	return math.Pi * circle.radius * circle.radius
 }
