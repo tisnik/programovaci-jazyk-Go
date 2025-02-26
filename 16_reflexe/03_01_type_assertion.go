@@ -29,6 +29,7 @@ func displayShapeInfo(shape Shape) {
 	area := shape.area()
 	fmt.Println("Area: ", area)
 
+	// typová aserce
 	square := shape.(Square)
 	fmt.Println("Side length: ", square.sideLength)
 }
