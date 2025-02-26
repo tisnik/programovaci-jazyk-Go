@@ -27,11 +27,12 @@ func (square Square) area() float64 {
 }
 
 // funkce akceptující libovolný typ splňující rozhraní io.Writer
-// (Pozor: nikoli Shape)
+// (POZOR: nikoli Shape)
 func displayShapeInfo(shape io.Writer) {
 	area := shape.area()
 	fmt.Println("Area: ", area)
 
+	// typová aserce
 	square := shape.(Square)
 	fmt.Println("Side length: ", square.sideLength)
 }
