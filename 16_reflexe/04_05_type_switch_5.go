@@ -1,4 +1,9 @@
 // Reflexe v programovacím jazyku Go
+//
+// - praktická ukázka rozeskoku a konverze na základě
+//   požadovaného datového typu v aplikaci využívající
+//   multimediální knihovnu SDL2
+
 package main
 
 import (
