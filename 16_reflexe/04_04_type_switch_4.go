@@ -1,4 +1,8 @@
 // Reflexe v programovacím jazyku Go
+//
+// - konverze hodnoty předané v parametru typu any
+//   na vybraný typ "rozhraní"
+
 package main
 
 import "fmt"
