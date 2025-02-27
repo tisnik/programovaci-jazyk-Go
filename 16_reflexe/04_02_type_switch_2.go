@@ -1,4 +1,11 @@
 // Reflexe v programovacím jazyku Go
+//
+// - konverze hodnoty předané v parametru typu any
+//   na vybrané konkrétní datové typy
+// - otestování, že konvertované hodnoty mají skutečně
+//   očekávaný datový typ a lze s nimi provádět operace
+//   specifické pro tento typ
+
 package main
 
 import "fmt"
