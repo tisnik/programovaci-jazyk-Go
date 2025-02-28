@@ -11,6 +11,9 @@ package main
 import "fmt"
 
 func test_type(value any) {
+	// konverze hodnoty předané v parametru typu "any"
+	// na vybrané konkrétní datové typy int, bool a string
+	// nakonec se provedou různé operace s konvertovanými hodnotami
 	switch v := value.(type) {
 	case int:
 		fmt.Println("Integer value:", v*10)
