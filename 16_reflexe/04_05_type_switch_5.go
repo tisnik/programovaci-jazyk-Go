@@ -1,6 +1,6 @@
 // Reflexe v programovacím jazyku Go
 //
-// - praktická ukázka rozeskoku a konverze na základě
+// - praktická ukázka rozvětvení a konverze na základě
 //   požadovaného datového typu v aplikaci využívající
 //   multimediální knihovnu SDL2
 
@@ -18,6 +18,9 @@ func eventLoop() {
 
 	for !done {
 		event = sdl.PollEvent()
+		// události mohou být různého typu,
+		// takže se můžeme rozhodnout, o kterou událost
+		// se jedná, následujícím rozvětvením
 		switch t := event.(type) {
 		case *sdl.QuitEvent:
 			done = true
