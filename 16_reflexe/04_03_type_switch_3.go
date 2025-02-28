@@ -15,27 +15,34 @@ type Interface2 interface {
 	bar()
 }
 
+// deklarace uživatelského datového typu
 type Type1 struct {
 	name string
 }
 
+// implementace metody předepsané v rozhraní Interface1
 func (t Type1) foo() {
 }
 
+// deklarace uživatelského datového typu
 type Type2 struct {
 	name string
 }
 
+// implementace metody předepsané v rozhraní Interface2
 func (t Type2) bar() {
 }
 
+// deklarace uživatelského datového typu
 type Type3 struct {
 	name string
 }
 
+// implementace metody předepsané v rozhraní Interface1
 func (t Type3) foo() {
 }
 
+// implementace metody předepsané v rozhraní Interface2
 func (t Type3) bar() {
 }
 
