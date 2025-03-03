@@ -25,9 +25,10 @@
 //
 // 15_testovani:
 //
-// 16_ladeni:
+// 16_reflexe:
 //
 // 17_web_assembly:
 //
 // 18_gopherjs:
-// 
+//
+// 19_interpreters:
