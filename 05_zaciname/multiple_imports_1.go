@@ -1,17 +1,15 @@
 // První kroky v jazyku Go
 //
-// - import symbolů ze dvou balíčků
+// - import symbolů (funkcí atd.) ze dvou balíčků
 // - každý balíček je naimportován přes samostatný příkaz "import"
 
 package main
 
 // import jediného balíčku
-import (
-	"fmt"
-	"os"
-)
+import "fmt"
 
 // import jediného balíčku
+import "os"
 
 func main() {
 	// zde můžeme používat funkce z obou naimportovaných balíčků
