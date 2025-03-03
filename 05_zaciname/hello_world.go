@@ -9,7 +9,7 @@ package main
 // import konstant, typů a funkcí z jiného balíčku
 import "fmt"
 
-// deklarace funkce nazvané main
+// deklarace funkce nazvané main (vstupní bod do programu)
 func main() {
 	// volání funkce náležející do jiného balíčku
 	// s využitím takzvané tečkové notace
