@@ -4,7 +4,7 @@ package main
 func main() {
 }
 
-// Zakomentovaný kus zdrojového kódu
+// Zakomentovaná část zdrojového kódu
 
 /*
 func main() {
