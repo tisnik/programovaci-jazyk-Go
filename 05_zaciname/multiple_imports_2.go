@@ -1,6 +1,6 @@
 // První kroky v jazyku Go
 //
-// - import symbolů ze dvou balíčků
+// - import symbolů (funkcí atd.) ze dvou balíčků
 // - oba balíčky jsou naimportovány jediným příkazem "import"
 
 package main
