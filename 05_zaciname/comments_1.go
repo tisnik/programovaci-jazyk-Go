@@ -1,6 +1,7 @@
 // jméno balíčku
 package main
 
-// funkce main slouží jako vstupní bod do aplikace
+// funkce main představuje v jazyce Go
+// vstupní bod do aplikace
 func main() {
 }
