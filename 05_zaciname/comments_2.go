@@ -1,5 +1,5 @@
 /*
-	Jméno balíčku.
+	Jméno balíčku, do kterého zdrojový kód patří.
 
 Balíček main má specifický význam pro běžné programy, ovšem
 v knihovnách se nepoužívá.
