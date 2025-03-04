@@ -2,6 +2,7 @@
 //
 // Seznam příkladů uložených v tomto podadresáři:
 //
+// 00_index.go
 // 01_01_keywords_as_identifiers.go
 // 01_02_int_type_redeclaration.go
 // 01_03_true_redeclaration.go
@@ -49,6 +50,7 @@
 // 05_06_local_var_1.go
 // 05_07_local_var_2.go
 // 05_08_var_visibility.go
+// 05_09_var_visibility_2.go
 // 06_01_type_inference.go
 // 06_02_type_inferences.go
 // 06_03_type_inference_values.go
@@ -66,6 +68,19 @@
 // 07_09_named_return.go
 // 07_10_named_return_incorrect.go
 // 07_11_multiple_return_ignore.go
+// 07_12_multiple_return_ignore.go
+// 07_13_multiple_return_ignore.go
+// 07_14_argument_count.go
+// 07_15_varargs.go
+// 07_16_local_var_incorrect_2.go
+// 07_17_func_as_variable.go
+// 07_18_inner_function.go
+// 07_19_closure.go
+// 07_20_closure.go
+// 07_21_closure.go
+// 07_22_closure.go
+// 07_23_closure.go
+// 07_24_closure.go
 // 08_01_if_statement.go
 // 08_02_if_statement.go
 // 08_03_if_statement_bad_type.go
@@ -82,3 +97,35 @@
 // 08_14_fallthrough.go
 // 08_15_switch_string.go
 // 08_16_goto_from_switch.go
+// 08_17_switch_intro.go
+// 08_18_switch_no_constants.go
+// 09_01_simplest_for_loop.go
+// 09_02_for_loop_with_condition.go
+// 09_03_c_like_loop.go
+// 09_04_c_like_loop.go
+// 09_05_c_like_loop_local_var.go
+// 09_06_for_range.go
+// 09_07_nested_loops.go
+// 09_08_nested_loops.go
+// 09_09_break_statement.go
+// 09_10_continue_statement.go
+// 09_11_incomplete_break_from_inner_loop.go
+// 09_12_break_from_inner_loop.go
+// 09_13_continue_in_inner_loop.go
+// 09_14_continue_in_inner_loop.go
+// 09_15_goto_from_loop.go
+// 09_16_goto_from_inner_loop.go
+// 10_01_defer_basic_usage.go
+// 10_02_defer_func.go
+// 10_03_defer_func.go
+// 10_04_defer_with_parameters.go
+// 10_05_more_defers.go
+// 10_06_defer_arguments_evaluation.go
+// 10_07_defer_arguments_evaluation.go
+// 10_08_defer_on_all_returns.go
+// 10_09_defer_practical_usage.go
+// 10_10_defer_practical_usage.go
+// 10_11_defer_return_values.go
+// 10_12_defer_arguments_evaluation.go
+// 10_13_multiple_defers_return_value.go
+// 10_14_multiple_defers_return_value.go
