@@ -1,5 +1,8 @@
-// Celočíselné konstanty zapisované ve dvojkové, osmičkové a šestnáctkové
-// (hexadecimální) soustavě. Použití znaku _ pro vizuální oddělení číslic.
+// Základní datové typy v jazyce Go
+//
+// - celočíselné konstanty zapisované ve dvojkové, osmičkové a šestnáctkové
+//   (hexadecimální) soustavě
+// - použití znaku _ pro vizuální oddělení číslic
 
 package main
 
