@@ -1,4 +1,7 @@
+// Základní datové typy v jazyce Go
 //
+// - lokální proměnné typu celé číslo se znaménkem
+// - inicializace lokálních proměnných globální konstantou
 
 package main
 
