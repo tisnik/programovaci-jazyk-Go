@@ -1,5 +1,7 @@
-// Celočíselné konstanty zapisované ve dvojkové, osmičkové a šestnáctkové
-// (hexadecimální) soustavě.
+// Základní datové typy v jazyce Go
+//
+// - celočíselné konstanty zapisované ve dvojkové, osmičkové a šestnáctkové
+//   (hexadecimální) soustavě
 
 package main
 
