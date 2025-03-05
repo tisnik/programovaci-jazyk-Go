@@ -1,4 +1,7 @@
-// Striktní kontroly prováděné překladačem při konverzi mezi datovými typy.
+// Základní datové typy v jazyce Go
+//
+// - striktní kontroly prováděné překladačem při konverzi
+//   mezi datovými typy
 
 package main
 
