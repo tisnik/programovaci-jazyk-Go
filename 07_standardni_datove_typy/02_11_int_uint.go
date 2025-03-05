@@ -1,4 +1,6 @@
-// Datové typy int a uint.
+// Základní datové typy v jazyce Go
+//
+// - datové typy int a uint
 
 package main
 
