@@ -1,4 +1,6 @@
-// Explicitní konverze mezi hodnotami různých datových typů.
+// Základní datové typy v jazyce Go
+//
+// - explicitní konverze mezi hodnotami různých datových typů
 
 package main
 
