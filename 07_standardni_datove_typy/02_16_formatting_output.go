@@ -1,4 +1,6 @@
-// Tisk celočíselných numerických hodnot s jejich naformátováním.
+// Základní datové typy v jazyce Go
+//
+// - tisk celočíselných numerických hodnot s jejich naformátováním
 
 package main
 
