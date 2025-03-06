@@ -1,5 +1,8 @@
-// Datové typy pro numerické hodnoty s plovoucí řádovou čárkou:
-// float32 a float64. Zápis literálů s numerickými hodnotami.
+// Základní datové typy v jazyce Go
+//
+// - datové typy pro numerické hodnoty s plovoucí řádovou čárkou:
+//   float32 a float64
+// - zápis literálů s numerickými hodnotami.
 
 package main
 
