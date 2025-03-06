@@ -1,5 +1,7 @@
-// Kontroly prováděné překladačem, zda numerické hodnoty s plovoucí čárkou
-// nepřekračují povolený rozsah.
+// Základní datové typy v jazyce Go
+//
+// - kontroly prováděné překladačem, zda numerické hodnoty s plovoucí čárkou
+//   nepřekračují povolený rozsah.
 
 package main
 
