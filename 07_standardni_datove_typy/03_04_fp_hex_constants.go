@@ -1,5 +1,8 @@
-// Datové typy pro numerické hodnoty s plovoucí řádovou čárkou:
-// float32 a float64. Hexadecimální mantisa a exponent.
+// Základní datové typy v jazyce Go
+//
+// - datové typy pro numerické hodnoty s plovoucí řádovou čárkou:
+//   float32 a float64
+// - hexadecimální mantisa a exponent.
 
 package main
 
