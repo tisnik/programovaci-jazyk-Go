@@ -1,6 +1,8 @@
-// Datový typ bool a pravdivostní hodnoty v programovacím jazyku Go.
-// Překladač jazyka Go neumožní automatickou konverzi mezi nějakým
-// datovým typem odlišným od bool na pravdivostní hodnotu.
+// Základní datové typy v jazyce Go
+//
+// - datový typ bool a pravdivostní hodnoty v programovacím jazyku Go
+// - překladač jazyka Go neumožní automatickou konverzi mezi nějakým
+//   datovým typem odlišným od bool na pravdivostní hodnotu.
 
 package main
 
