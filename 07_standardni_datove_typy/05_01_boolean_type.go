@@ -1,4 +1,6 @@
-// Datový typ bool a pravdivostní hodnoty v programovacím jazyku Go.
+// Základní datové typy v jazyce Go
+//
+// - datový typ bool a pravdivostní hodnoty
 
 package main
 
