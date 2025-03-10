@@ -1,6 +1,8 @@
 // Základy programovacího jazyka Go
 //
 // - řídicí konstrukce switch - pracuje jinak než v C!
+// - automatické ukončení jednotlivých větví tak,
+//   jakoby byl zapsán příkaz break
 
 package main
 
