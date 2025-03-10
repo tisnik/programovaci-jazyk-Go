@@ -1,3 +1,7 @@
+// Základy programovacího jazyka Go
+//
+// - rozeskok na základě celočíselných konstant
+
 package main
 
 import "fmt"
