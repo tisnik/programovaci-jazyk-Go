@@ -4,6 +4,7 @@
 //
 // - využití interpretru Yaegi
 // - vyhodnocení víceřadkového skriptu
+// - skript je reprezentován víceřádkovým řetězcem
 // - skript obsahuje deklaraci funkce
 
 package main
