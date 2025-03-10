@@ -1,4 +1,11 @@
+// Základy programovacího jazyka Go
+//
+// - prázdná konstrukce switch
+// - umístění větve default v konstrukci switch
+
 package main
+
+import "fmt"
 
 func main() {
 	switch {
@@ -6,31 +13,31 @@ func main() {
 
 	switch {
 	default:
-		println("proč jsem vlastně použil switch?")
+		fmt.Println("proč jsem vlastně použil switch?")
 	}
 
 	switch {
 	case true:
-		println("true")
+		fmt.Println("true")
 	case false:
-		println("false")
+		fmt.Println("false")
 	}
 
 	switch {
 	case false:
-		println("false")
+		fmt.Println("false")
 	case true:
-		println("true")
+		fmt.Println("true")
 	default:
-		println("default")
+		fmt.Println("default")
 	}
 
 	switch {
 	case false:
-		println("false")
+		fmt.Println("false")
 	default:
-		println("default")
+		fmt.Println("default")
 	case true:
-		println("true")
+		fmt.Println("true")
 	}
 }
