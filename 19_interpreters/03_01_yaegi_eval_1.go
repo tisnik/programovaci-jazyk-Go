@@ -4,6 +4,7 @@
 //
 // - využití interpretru Yaegi
 // - vyhodnocení jednořádkového výrazu
+// - výraz je reprezentován řetězcem jazyka Go
 
 package main
 
