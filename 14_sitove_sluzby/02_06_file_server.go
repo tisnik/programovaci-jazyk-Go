@@ -12,7 +12,7 @@ import (
 
 func main() {
 	// registrace callback funkce volané při přístupu k souborům
-	http.Handle("/", http.FileServer(http.Dir("")))
+	http.Handle("/", http.FileServer(http.Dir("../")))
 
 	// spuštění HTTP serveru
 	fmt.Println("Starting HTTP server")
