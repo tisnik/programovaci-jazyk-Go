@@ -41,6 +41,7 @@ func CalcSum(this js.Value, args []js.Value) any {
 	z := x + y
 
 	// vrátit výsledek s explicitní konverzí
+	// na typ kompatibilní s JavaScriptem
 	return js.ValueOf(z)
 }
 
