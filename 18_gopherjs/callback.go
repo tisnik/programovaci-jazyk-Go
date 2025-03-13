@@ -10,6 +10,8 @@ import (
 	"syscall/js"
 )
 
+// funkce, která se bude volat z HTML stránky, jakoby
+// se jednalo o JavaScriptovou funkci
 func CallFunction(this js.Value, args []js.Value) any {
 	// kontrola počtu předaných argumentů
 	if len(args) != 1 {
