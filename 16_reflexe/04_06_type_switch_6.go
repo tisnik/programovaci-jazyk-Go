@@ -1,6 +1,6 @@
 // Reflexe v programovacím jazyku Go
 //
-// - praktická ukázka rozeskoku a konverze na základě
+// - praktická ukázka rozvětvení a konverze na základě
 //   požadovaného datového typu v aplikaci využívající
 //   průchod AST stromem (standardní knihovny jazyka Go)
 
@@ -35,6 +35,8 @@ func (v visitor) Visit(n ast.Node) ast.Visitor {
 	var s string
 
 	// převod uzlu do tisknutelné podoby
+	// uzly mohou být rozličného typu a tudíž mohou mít
+	// i různé atributy (jedná se o odlišné datové struktury)
 	switch x := n.(type) {
 	case *ast.BasicLit:
 		s = x.Value
