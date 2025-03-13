@@ -1,6 +1,6 @@
 // Řetězce v programovacím jazyku Go
 //
-// - zjištění délky řetězce
+// - zjištění délky řetězce v bajtech
 
 package main
 
