@@ -40,7 +40,7 @@ func CalcSum(this js.Value, args []js.Value) any {
 	// vypočítat výsledek
 	z := x + y
 
-	// vrátit výsledek s automatickou konverzí
+	// vrátit výsledek s jeho automatickou konverzí
 	return z
 }
 
