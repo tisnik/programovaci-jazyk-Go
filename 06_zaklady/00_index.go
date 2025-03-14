@@ -2,130 +2,93 @@
 //
 // Seznam příkladů uložených v tomto podadresáři:
 //
-// 00_index.go
-// 01_01_keywords_as_identifiers.go
-// 01_02_int_type_redeclaration.go
-// 01_03_true_redeclaration.go
-// 02_01_unary_operators.go
-// 02_02_arithmetic_operators_int.go
-// 02_03_arithmetic_operators_float.go
-// 02_04_arithmetic_operators_complex.go
-// 02_05_div_mod.go
-// 02_06_relational_operators_int.go
-// 02_07_relational_operators_float.go
-// 02_08_relational_operators_complex.go
-// 02_09_relational_operators_boolean.go
-// 02_10_relational_operators_strings.go
-// 02_11_logical_operators.go
-// 02_12_bitwise_operators_8b.go
-// 02_13_bitwise_operators_32b.go
-// 02_14_bit_shifts_byte.go
-// 02_15_bit_shifts_int.go
-// 02_16_bit_shifts.go
-// 02_17_arithmetic_assignment.go
-// 02_18_bit_shift_assignment.go
-// 02_19_bitops_assignment.go
-// 02_20_inc_dec_int.go
-// 02_21_inc_dec_float.go
-// 02_22_inc_dec_complex.go
-// 02_23_inc_dec_bad_usage_1.go
-// 02_24_inc_dec_bad_usage_2.go
-// 02_25_string_concatenation.go
-// 02_26_short_circuit.go
-// 04_01_const_1.go
-// 04_02_const_2.go
-// 04_03_const_3.go
-// 04_04_const_4.go
-// 04_05_const_types.go
-// 04_06_const_types.go
-// 04_07_const_types.go
-// 04_08_const_types.go
-// 04_09_numeric_const.go
-// 04_10_const_expression.go
-// 05_01_global_var_1.go
-// 05_02_global_var_2.go
-// 05_03_global_var_2.go
-// 05_04_global_vars.go
-// 05_05_global_vars.go
-// 05_06_local_var_1.go
-// 05_07_local_var_2.go
-// 05_08_var_visibility.go
-// 05_09_var_visibility_2.go
-// 06_01_type_inference.go
-// 06_02_type_inferences.go
-// 06_03_type_inference_values.go
-// 06_04_global_variables.go
-// 06_05_global_variables.go
-// 06_06_global_variables.go
-// 07_01_elementary_function.go
-// 07_02_print_sum.go
-// 07_03_print_sum.go
-// 07_04_print_sum_incorrect.go
-// 07_05_local_var_incorrect.go
-// 07_06_calc_sum.go
-// 07_07_calc_sum_incorrect.go
-// 07_08_multiple_return.go
-// 07_09_named_return.go
-// 07_10_named_return_incorrect.go
-// 07_11_multiple_return_ignore.go
-// 07_12_multiple_return_ignore.go
-// 07_13_multiple_return_ignore.go
-// 07_14_argument_count.go
-// 07_15_varargs.go
-// 07_16_local_var_incorrect_2.go
-// 07_17_func_as_variable.go
-// 07_18_inner_function.go
-// 07_19_closure.go
-// 07_20_closure.go
-// 07_21_closure.go
-// 07_22_closure.go
-// 07_23_closure.go
-// 07_24_closure.go
-// 08_01_if_statement.go
-// 08_02_if_statement.go
-// 08_03_if_statement_bad_type.go
-// 08_04_if_statement_nil.go
-// 08_05_if_else.go
-// 08_06_bad_syntax.go
-// 08_07_switch.go
-// 08_08_switch.go
-// 08_09_constants_in_switch.go
-// 08_10_switch_comparisons.go
-// 08_11_switch_expressions.go
-// 08_12_switch_expressions.go
-// 08_13_no_fallthrough.go
-// 08_14_fallthrough.go
-// 08_15_switch_string.go
-// 08_16_goto_from_switch.go
-// 08_17_switch_intro.go
-// 08_18_switch_no_constants.go
-// 09_01_simplest_for_loop.go
-// 09_02_for_loop_with_condition.go
-// 09_03_c_like_loop.go
-// 09_04_c_like_loop.go
-// 09_05_c_like_loop_local_var.go
-// 09_06_for_range.go
-// 09_07_nested_loops.go
-// 09_08_nested_loops.go
-// 09_09_break_statement.go
-// 09_10_continue_statement.go
-// 09_11_incomplete_break_from_inner_loop.go
-// 09_12_break_from_inner_loop.go
-// 09_13_continue_in_inner_loop.go
-// 09_14_continue_in_inner_loop.go
-// 09_15_goto_from_loop.go
-// 09_16_goto_from_inner_loop.go
-// 10_01_defer_basic_usage.go
-// 10_02_defer_func.go
-// 10_03_defer_func.go
-// 10_04_defer_with_parameters.go
-// 10_05_more_defers.go
-// 10_06_defer_arguments_evaluation.go
-// 10_07_defer_arguments_evaluation.go
-// 10_08_defer_on_all_returns.go
-// 10_09_defer_practical_usage.go
-// 10_10_defer_practical_usage.go
-// 10_11_defer_return_values.go
-// 10_12_defer_arguments_evaluation.go
-// 10_13_multiple_defers_return_value.go
-// 10_14_multiple_defers_return_value.go
+// 01_01_keywords_as_identifiers.go:
+// - pokus o použití klíčových slov ve funkci identifikátorů
+//
+// 01_02_int_type_redeclaration.go:
+// - deklarace datového typu nazvaného "int", který přepíše původní typ "int"
+//        a především, kdy ho naopak nepoužít.
+//
+// 01_03_true_redeclaration.go:
+// - deklarace proměnné "true", která přepíše původní hodnotu "true"
+//        a především, kdy ho naopak nepoužít.
+//
+// 02_01_unary_operators.go:
+// - unární operátory definované v jazyku Go
+//
+// 02_02_arithmetic_operators_int.go:
+// - základní aritmetické operátory použité s proměnnými
+//   typu int
+//
+// 02_03_arithmetic_operators_float.go:
+// - základní aritmetické operátory s proměnnými
+//   typu float32
+//
+// 02_04_arithmetic_operators_complex.go:
+// - základní aritmetické operátory s proměnnými
+//   typu complex64
+//
+// 02_05_div_mod.go:
+// - operátory pro celočíselný podíl a výpočet zbytku po dělení
+// - použití pro různé kombinace kladných i záporných operandů
+//
+// 02_06_relational_operators_int.go:
+// - základní relační operátory s proměnnými
+//   typu int
+//
+// 02_07_relational_operators_float.go:
+// - základní relační operátory s proměnnými
+//   typu float32
+//
+// 02_08_relational_operators_complex.go:
+// - základní relační operátory s proměnnými
+//   typu complex64
+//
+// 02_09_relational_operators_boolean.go:
+// - základní relační operátory s proměnnými
+//   typu boolean
+//
+// 02_10_relational_operators_strings.go:
+// - základní relační operátory s proměnnými
+//   typu řetězec
+//
+// 02_11_logical_operators.go:
+// - logické operátory (pro hodnoty typu bool)
+//
+// 02_12_bitwise_operators_8b.go:
+// - bitové operátory pro osmibitové hodnoty
+//
+// 02_13_bitwise_operators_32b.go:
+// - bitové operátory pro 32bitové hodnoty
+//
+// 02_14_bit_shifts_byte.go:
+// - bitové posuny pro hodnoty typu byte
+//
+// 02_15_bit_shifts_int.go:
+// - bitové posuny pro hodnoty typu int
+//
+// 02_16_bit_shifts.go:
+// - bitové posuny o hodnotu proměnné (bez znaménka)
+//
+// 02_17_arithmetic_assignment.go:
+// - základní aritmetické operátory kombinované
+//   s přiřazením
+//
+// 02_18_bit_shift_assignment.go:
+// - operátory pro bitové posuny kombinované
+//   s přiřazením
+//
+// 02_19_bitops_assignment.go:
+// - operátory pro bitové operace kombinované
+//   s přiřazením (použito u proměnné typu byte)
+// - použití celočíselných konstant zapsaných
+//   ve dvojkové soustavě
+//
+// 02_20_inc_dec_int.go:
+// - operátory ++ a -- použité pro proměnné typu int
+//
+// 02_21_inc_dec_float.go:
+// - operátory ++ a -- použité pro proměnné typu float32
+//
+// 02_22_inc_dec_complex.go:
+// - operátory ++ a -- použité pro proměnné typu complex
