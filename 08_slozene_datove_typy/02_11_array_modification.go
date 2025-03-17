@@ -10,12 +10,12 @@ func main() {
 	// deklarace pole a naplnění jeho prvků nulami
 	var a [10]int
 
-	fmt.Printf("Original array: %v\n", a)
+	fmt.Printf("Obsah původního pole: %v\n", a)
 
 	// modifikace pole
 	for i := 0; i < len(a); i++ {
 		a[i] = i * 2
 	}
 
-	fmt.Printf("Modified array: %v\n", a)
+	fmt.Printf("Obsah modifikovaného pole: %v\n", a)
 }
