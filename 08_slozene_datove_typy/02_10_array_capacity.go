@@ -12,7 +12,7 @@ func main() {
 	a3 := [30]int32{1, 10, 2, 9, 3, 8, 4, 7, 5, 6}
 
 	// výpis kapacity všech polí
-	fmt.Printf("Array 1 capacity: %d\n", cap(a1))
-	fmt.Printf("Array 2 capacity: %d\n", cap(a2))
-	fmt.Printf("Array 3 capacity: %d\n", cap(a3))
+	fmt.Printf("Kapacita pole číslo 1: %d\n", cap(a1))
+	fmt.Printf("Kapacita pole číslo 2: %d\n", cap(a2))
+	fmt.Printf("Kapacita pole číslo 3: %d\n", cap(a3))
 }
