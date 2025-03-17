@@ -12,7 +12,7 @@ func main() {
 	a3 := [30]int32{1, 10, 2, 9, 3, 8, 4, 7, 5, 6}
 
 	// výpis délek všech polí
-	fmt.Printf("Array 1 length: %d\n", len(a1))
-	fmt.Printf("Array 2 length: %d\n", len(a2))
-	fmt.Printf("Array 3 length: %d\n", len(a3))
+	fmt.Printf("Délka pole číslo 1: %d\n", len(a1))
+	fmt.Printf("Délka pole číslo 2: %d\n", len(a2))
+	fmt.Printf("Délka pole číslo 3: %d\n", len(a3))
 }
