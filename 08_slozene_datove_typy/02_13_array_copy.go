@@ -14,8 +14,8 @@ func main() {
 	a2 := a1
 
 	// výpis obsahu obou polí
-	fmt.Printf("Array 1: %v\n", a1)
-	fmt.Printf("Array 2: %v\n", a2)
+	fmt.Printf("Pole 1: %v\n", a1)
+	fmt.Printf("Pole 2: %v\n", a2)
 
 	// modifikace pole a1
 	for i := 0; i < len(a1); i++ {
@@ -25,6 +25,6 @@ func main() {
 	fmt.Println("-------------------------------")
 
 	// výpis obsahu obou polí
-	fmt.Printf("Array 1: %v\n", a1)
-	fmt.Printf("Array 2: %v\n", a2)
+	fmt.Printf("Pole 1: %v\n", a1)
+	fmt.Printf("Pole 2: %v\n", a2)
 }
