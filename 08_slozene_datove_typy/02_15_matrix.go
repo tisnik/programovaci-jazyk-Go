@@ -11,7 +11,7 @@ func main() {
 	var matrix [4][3]float32
 
 	// tisk původního obsahu matice
-	fmt.Printf("Matrix:    %v\n", matrix)
+	fmt.Printf("Matice před modifikací:  %v\n", matrix)
 
 	// modifikace prvků matice
 	for j := range matrix {
@@ -21,5 +21,5 @@ func main() {
 	}
 
 	// tisk nového obsahu matice
-	fmt.Printf("Matrix:    %v\n", matrix)
+	fmt.Printf("Matice po modifikaci:    %v\n", matrix)
 }
