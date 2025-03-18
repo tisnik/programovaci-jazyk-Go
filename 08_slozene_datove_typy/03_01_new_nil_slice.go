@@ -11,6 +11,7 @@ func main() {
 	var s []int
 
 	// tisk hodnoty a typu řezu
-	fmt.Printf("Value: %v\n", s)
-	fmt.Printf("Type:  %T\n", s)
+	fmt.Printf("Hodnota: %v\n", s)
+	fmt.Printf("Typ:     %T\n", s)
+	fmt.Printf("=nil?    %v\n", s == nil)
 }
