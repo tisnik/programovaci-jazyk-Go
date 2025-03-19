@@ -6,11 +6,11 @@ import "fmt"
 func main() {
 	s := []int{1, 2, 3}
 
-	fmt.Printf("Type:  %T\n", s)
+	fmt.Printf("Typ:  %T\n", s)
 
-	fmt.Printf("Before modification: %v\n", s)
+	fmt.Printf("Před modifikací: %v\n", s)
 
 	s[0] = 100
 
-	fmt.Printf("After modification:  %v\n", s)
+	fmt.Printf("Po modifikaci:   %v\n", s)
 }
