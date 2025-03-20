@@ -7,7 +7,10 @@ package main
 import "fmt"
 
 func main() {
+	// deklarace pole
 	a := [10]int{1, 2, 3}
+
+	// deklarace řezu
 	s := []int{1, 2, 3}
 
 	fmt.Printf("Typ proměnné 'a':     %T\n", a)
