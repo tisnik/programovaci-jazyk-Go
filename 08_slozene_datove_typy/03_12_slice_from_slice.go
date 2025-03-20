@@ -1,12 +1,21 @@
 // Řezy v programovacím jazyku Go
+//
+// - vytvoření řezu z jiného řezu
+// - zjištění, jak se modifikace prvku v jednom řezu
+//   projeví na druhém řezu
+
 package main
 
 import "fmt"
 
 func main() {
+	// pole
 	var a [10]int
 
+	// řez vytvořený z pole (řez polem)
 	slice1 := a[4:9]
+
+	// řez vytvořený z jiného řezu (řez řezem)
 	slice2 := slice1[3:]
 
 	fmt.Printf("Pole:            %v\n", a)
@@ -20,6 +29,7 @@ func main() {
 	fmt.Printf("Délka řezu 2:    %d\n", len(slice2))
 	fmt.Printf("Kapacita řezu 2: %d\n\n", cap(slice2))
 
+	// modifikace prvků přes druhý řez
 	slice2[0] = 99
 	slice2[1] = 99
 
