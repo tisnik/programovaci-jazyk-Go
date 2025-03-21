@@ -1,4 +1,8 @@
 // Řezy v programovacím jazyku Go
+//
+// - postupné přidávání prvků do řezu
+// - ve skutečnosti se vždy vytvoří nový řez
+
 package main
 
 import "fmt"
