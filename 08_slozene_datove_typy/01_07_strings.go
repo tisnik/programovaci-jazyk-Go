@@ -24,6 +24,7 @@ func main() {
 	// řetězec s Unicode znaky
 	var s5 string = "шщэюя"
 
+	// tisk všech výše definovaných řetězců
 	fmt.Println(s1)
 	fmt.Println(s2)
 	fmt.Println(s3)
