@@ -1,6 +1,7 @@
 // Řetězce v programovacím jazyku Go
 //
 // - deklarace a použití takzvaných surových řetězců
+//   (raw strings)
 
 package main
 
