@@ -12,5 +12,7 @@ func main() {
 
 world!
 ` // backtick je umístěn na samostatném řádku
+
+	// tisk řetězce
 	fmt.Println(s)
 }
