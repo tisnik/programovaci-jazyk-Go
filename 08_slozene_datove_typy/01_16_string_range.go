@@ -11,6 +11,7 @@ import "fmt"
 func main() {
 	var s string = "Příliš žluťoučký kůň"
 
+	// průchod řetězcem po runách
 	for _, c := range s {
 		fmt.Printf("%c", c)
 	}
