@@ -12,6 +12,8 @@ func main() {
 
 	// průchod přes jednotlivé bajty
 	for i := 0; i < len(s); i++ {
+		// tisk bajtu tak, jakoby se jednalo
+		// o kód ASCII znaku
 		fmt.Printf("%c", s[i])
 	}
 }
