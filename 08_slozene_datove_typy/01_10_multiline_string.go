@@ -11,5 +11,7 @@ func main() {
 	var s string = `Hello
 
 world!` // backtick je umístěn zde
+
+	// tisk řetězce
 	fmt.Println(s)
 }
