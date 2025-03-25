@@ -13,10 +13,12 @@ func main() {
 
 	fmt.Printf("Typ:  %T\n", s)
 
+	// výpis obsahu řezu
 	fmt.Printf("Před modifikací: %v\n", s)
 
 	// modifikace prvku
 	s[0] = 100
 
+	// výpis obsahu řezu
 	fmt.Printf("Po modifikaci:   %v\n", s)
 }
