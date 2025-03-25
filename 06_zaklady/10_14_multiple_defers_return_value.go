@@ -1,6 +1,6 @@
 // Základy programovacího jazyka Go
 //
-// - manipulace s návratovýi hodnotami přímo v konstrukci defer
+// - manipulace s návratovými hodnotami přímo v konstrukci defer
 
 package main
 
