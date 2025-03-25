@@ -17,5 +17,7 @@ func main() {
 	defer onFinish(2)
 	defer onFinish(3)
 	defer onFinish(4)
+
+	// poslední příkaz ve funkci main
 	fmt.Println("Finishing main() function")
 }
