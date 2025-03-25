@@ -15,5 +15,7 @@ func main() {
 	for i := 10; i >= 0; i-- {
 		fmt.Printf("%2d\n", i)
 	}
+
+	// poslední příkaz ve funkci main
 	fmt.Println("Finishing main() function")
 }
