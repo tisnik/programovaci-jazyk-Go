@@ -1,6 +1,6 @@
-// Ukazatele
+// Ukazatele v jazyku Go
 //
-// - deklarace proměnné typu ukazatel
+// - deklarace lokální proměnné typu ukazatel
 // - tisk nulové hodnoty této proměnné
 
 package main
@@ -8,9 +8,9 @@ package main
 import "fmt"
 
 func main() {
-	// deklarace proměnné typu ukazatel
+	// deklarace lokální proměnné typu ukazatel
 	var p *int
 
-	// tisk hodnoty ukazatele
+	// tisk výchozí hodnoty ukazatele
 	fmt.Println(p)
 }
