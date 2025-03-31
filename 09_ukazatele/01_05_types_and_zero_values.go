@@ -1,4 +1,4 @@
-// Ukazatele
+// Ukazatele v jazyku Go
 //
 // - deklarace proměnných typu ukazatel, z nichž každý
 //   je odlišného základního datového typu (nebo jeho aliasu)
@@ -10,7 +10,7 @@ import "fmt"
 
 func main() {
 	// lokální proměnné typu ukazatel automaticky inicializované na nulové
-	// hodnoty
+	// hodnoty překladačem jazyka Go
 	var (
 		a       *any
 		b       *bool
