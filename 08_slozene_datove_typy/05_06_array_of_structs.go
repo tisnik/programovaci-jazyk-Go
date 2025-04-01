@@ -1,3 +1,8 @@
+// Struktury (záznamy) v programovacím jazyku Go
+//
+// - pole, jehož prvky jsou typu struktura (záznam)
+// - přímá inicializace prvků pole
+
 package main
 
 import "fmt"
@@ -10,6 +15,7 @@ type User struct {
 }
 
 func main() {
+	// pole záznamů s inicializací jeho prvků
 	var users = [3]User{
 		User{
 			id:      1,
@@ -24,8 +30,11 @@ func main() {
 			name:    "Josef",
 			surname: "Vyskočil"},
 	}
+
+	// tisk obsahu celého pole
 	fmt.Println(users)
 
+	// druhé pole, překladač si odvodí jeho velikost
 	var users2 = [...]User{
 		User{
 			id:      1,
@@ -40,5 +49,7 @@ func main() {
 			name:    "Josef",
 			surname: "Vyskočil"},
 	}
+
+	// tisk obsahu celého pole
 	fmt.Println(users2)
 }
