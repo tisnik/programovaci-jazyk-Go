@@ -15,20 +15,18 @@
 //
 // 10_soubeznost_a_paralelnost:
 //
-// 11_rozhrani:
+// 11_oop:
 //
-// 12_uzivatelske_datove_typy:
+// 12_genericke_datove_typy:
 //
-// 13_genericke_datove_typy:
+// 13_sitove_sluzby:
 //
-// 14_zakladni_knihovna:
+// 14_testovani:
 //
-// 15_testovani:
+// 15_reflexe:
 //
-// 16_reflexe:
+// 16_web_assembly:
 //
-// 17_web_assembly:
+// 17_gopherjs:
 //
-// 18_gopherjs:
-//
-// 19_interpreters:
+// 18_interpreters:
