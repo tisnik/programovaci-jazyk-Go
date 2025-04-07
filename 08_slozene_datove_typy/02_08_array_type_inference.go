@@ -1,8 +1,9 @@
 // Pole v programovacím jazyku Go
 //
-// - deklarace lokální konstanty s polem
+// - deklarace lokální proměnné s polem
 // - použití typové inference
 // - inicializace pole
+// - odvození délky pole překladačem
 
 package main
 
