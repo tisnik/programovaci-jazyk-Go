@@ -1,7 +1,8 @@
 // Pole v programovacím jazyku Go
 //
-// - deklarace lokální konstanty s polem
+// - deklarace lokální proměnné s polem
 // - inicializace pole
+// - prvky bez explicitně uvedené hodnoty jsou vynulovány
 
 package main
 
