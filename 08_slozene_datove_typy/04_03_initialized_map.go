@@ -11,6 +11,8 @@ func main() {
 	m1 := make(map[string]int)
 	fmt.Println(m1)
 
+	// přidání nových prvků do mapy
+	// klíči jsou řetězce, hodnotami prvků celá čísla
 	m1["nula"] = 0
 	m1["jedna"] = 1
 	m1["dva"] = 2
