@@ -18,6 +18,7 @@ type IndexPageDynContent struct {
 }
 
 func mainEndpoint(writer http.ResponseWriter, request *http.Request) {
+	// načtení šablony
 	t, err := template.ParseFiles("index_template.html")
 	if err != nil {
 		writer.WriteHeader(http.StatusNotFound)
@@ -25,7 +26,10 @@ func mainEndpoint(writer http.ResponseWriter, request *http.Request) {
 		return
 	}
 
+	// data posílaná do šablonovacího systému
 	dynData := IndexPageDynContent{Title: "Test", Header: "Welcome!"}
+
+	// aplikace dat na šablonu
 	err = t.Execute(writer, dynData)
 	if err != nil {
 		fmt.Println("Error executing template")
