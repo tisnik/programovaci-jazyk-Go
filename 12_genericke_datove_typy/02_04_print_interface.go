@@ -1,7 +1,13 @@
+// Generické datové typy v Go
+//
+// - funkce printValue akceptující
+//   hodnotu libovolného typu
+
 package main
 
 import "fmt"
 
+// funkce akceptující hodnotu libovolného typu
 func printValue(value interface{}) {
 	fmt.Println(value)
 }
