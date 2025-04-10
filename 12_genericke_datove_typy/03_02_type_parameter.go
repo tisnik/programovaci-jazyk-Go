@@ -1,7 +1,13 @@
+// Generické datové typy v Go
+//
+// - vynucení konkrétního typového parametru
+//   při volání funkce printValue
+
 package main
 
 import "fmt"
 
+// funkce s typovým parametrem
 func printValue[T any](value T) {
 	fmt.Println(value)
 }
