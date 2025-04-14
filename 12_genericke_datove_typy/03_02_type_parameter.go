@@ -2,6 +2,8 @@
 //
 // - vynucení konkrétního typového parametru
 //   při volání funkce printValue
+// - vynucení konkrétního typu parametru funkce
+//   při jejím volání
 
 package main
 
@@ -13,6 +15,7 @@ func printValue[T any](value T) {
 }
 
 func main() {
+	// vynucení konkrétního typu parametru funkce při jejím volání
 	printValue[string]("Programovací jazyk Go")
 	printValue[rune]('*')
 	printValue[int](42)
