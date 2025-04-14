@@ -8,14 +8,17 @@ package main
 
 import "fmt"
 
+// první varianta funkce pro porovnání dvou hodnot
 func compareInts(x int, y int) bool {
 	return x < y
 }
 
+// druhá varianta funkce pro porovnání dvou hodnot
 func compareFloats(x float64, y float64) bool {
 	return x < y
 }
 
+// třetí varianta funkce pro porovnání dvou hodnot
 func compareStrings(x string, y string) bool {
 	return x < y
 }
