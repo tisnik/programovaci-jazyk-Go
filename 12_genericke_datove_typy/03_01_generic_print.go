@@ -1,6 +1,7 @@
 // Generické datové typy v Go
 //
 // - typový parametr u funkce printValue
+// - tuto funkci lze zavolat s předáním libovolného parametru
 
 package main
 
@@ -12,6 +13,7 @@ func printValue[T any](value T) {
 }
 
 func main() {
+	// volání funkce s předáním libovolné hodnoty
 	printValue("Programovací jazyk Go")
 	printValue('*')
 	printValue(42)
