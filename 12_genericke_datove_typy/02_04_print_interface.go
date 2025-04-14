@@ -2,6 +2,7 @@
 //
 // - funkce printValue akceptující
 //   hodnotu libovolného typu
+// - využití prázdného rozhraní pro typ parametru
 
 package main
 
