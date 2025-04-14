@@ -14,6 +14,8 @@ func printValue[T any](value T) {
 }
 
 func main() {
+	// vynucujeme si volání odlišné varianty generické funkce,
+	// než to odpovídá předávaným hodnotám
 	printValue[int]("Programovací jazyk Go")
 	printValue[[]string]('*')
 	printValue[string](42)
