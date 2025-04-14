@@ -1,6 +1,8 @@
 // Generické datové typy v Go
 //
-// - printValue jakožto běžná negenerická funkce
+// - funkce printValue, která je deklarována
+//   jakožto běžná negenerická funkce
+// - zavolání této funkce
 
 package main
 
