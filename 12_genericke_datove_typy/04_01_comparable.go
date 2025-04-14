@@ -7,6 +7,8 @@ package main
 
 import "fmt"
 
+// negenerická varianta funkce pro
+// porovnání dvou hodnot typu int
 func compare(x int, y int) bool {
 	return x < y
 }
