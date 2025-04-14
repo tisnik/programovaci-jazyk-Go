@@ -1,6 +1,6 @@
 // Generické datové typy v Go
 //
-// - Go neumožnuje přetěžování funkcí
+// - Go neumožňuje přetěžování funkcí
 // - tento příklad nelze přeložit!
 
 package main
