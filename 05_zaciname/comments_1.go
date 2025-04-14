@@ -1,7 +1,7 @@
 // jméno balíčku
-package main
+package main // i toto je komentář
 
 // funkce main představuje v jazyce Go
 // vstupní bod do aplikace
-func main() {
+func main() { // začátek těla funkce
 }
