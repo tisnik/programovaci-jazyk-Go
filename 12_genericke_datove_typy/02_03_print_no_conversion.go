@@ -8,6 +8,7 @@ package main
 
 import "fmt"
 
+// nový datový typ odvozený od řetězce
 type Value string
 
 // funkce akceptující hodnotu typu Value
