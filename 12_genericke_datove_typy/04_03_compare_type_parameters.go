@@ -11,6 +11,8 @@ type comparable interface {
 	int | float64 | string
 }
 
+// generická varianta funkce pro porovnání
+// dvou hodnot stejného (generického) typu
 func compare[T comparable](x T, y T) bool {
 	return x < y
 }
