@@ -15,7 +15,7 @@ type Rectangle struct {
 	width, height float64
 }
 
-// implementace metody
+// implementace metody navázané na typ (příjemce) Rectangle
 func (rectangle Rectangle) area() float64 {
 	return rectangle.width * rectangle.height
 }
