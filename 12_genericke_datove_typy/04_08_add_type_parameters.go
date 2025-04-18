@@ -15,10 +15,13 @@ type numeric interface {
 	~int | ~float64 | ~complex128
 }
 
+// generická varianta funkce pro součet dvou
+// hodnot stejného (generického) typu
 func add[T numeric](x T, y T) T {
 	return x + y
 }
 
+// odvozené datové typy
 type myInt int
 
 type myFloat float64
@@ -26,6 +29,7 @@ type myFloat float64
 type myComplex complex128
 
 func main() {
+	// proměnné získané z odvozených datových typů
 	var x myInt = 42
 	var y myFloat = 3.14
 	var z myComplex = 1 + 2i
