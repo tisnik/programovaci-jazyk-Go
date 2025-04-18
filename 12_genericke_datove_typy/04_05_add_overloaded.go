@@ -8,10 +8,12 @@ package main
 
 import "fmt"
 
+// první varianta přetížené funkce
 func add(x int, y int) int {
 	return x + y
 }
 
+// druhá varianta přetížené funkce
 func add(x float32, y float32) float32 {
 	return x + y
 }
