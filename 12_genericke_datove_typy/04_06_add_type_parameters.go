@@ -11,6 +11,8 @@ type numeric interface {
 	int | float64 | complex128
 }
 
+// generická varianta funkce pro součet dvou
+// hodnot stejného (generického) typu
 func add[T numeric](x T, y T) T {
 	return x + y
 }
