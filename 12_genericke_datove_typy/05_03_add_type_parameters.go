@@ -1,3 +1,8 @@
+// Generické datové typy v Go
+//
+// - funkce s dvojicí generických datových typů
+// - tento příklad nelze přeložit!
+
 package main
 
 import "fmt"
