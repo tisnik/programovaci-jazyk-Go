@@ -4,6 +4,7 @@
 //   hodnot stejného (generického) typu
 // - odvození typů od typů základních
 // - této funkci předáváme hodnoty odvozených typů
+// - tento příklad nelze přeložit!
 
 package main
 
@@ -13,6 +14,8 @@ type numeric interface {
 	int | float64 | complex128
 }
 
+// generická varianta funkce pro součet dvou
+// hodnot stejného (generického) typu
 func add[T numeric](x T, y T) T {
 	return x + y
 }
