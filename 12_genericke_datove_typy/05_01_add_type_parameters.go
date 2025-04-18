@@ -1,3 +1,8 @@
+// Generické datové typy v Go
+//
+// - deklarace interních proměnných s využitím
+//   generického datového typu
+
 package main
 
 import "fmt"
@@ -7,6 +12,8 @@ type numeric interface {
 }
 
 func add[T numeric](x T, y T) T {
+	// deklarace interních proměnných s využitím
+	// generického datového typu
 	var first T = x
 	var second T = y
 	return first + second
