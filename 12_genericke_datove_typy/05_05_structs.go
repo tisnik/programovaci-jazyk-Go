@@ -1,3 +1,9 @@
+// Generické datové typy v Go
+//
+// - generický datový typ odvozený od záznamů
+// - pokus o přístup ke stejně pojmenovanému prvku záznamu
+// - tento příklad nelze přeložit!
+
 package main
 
 import (
