@@ -8,7 +8,7 @@ import "fmt"
 
 // funkce, která bude zavolána v gorutině
 func message(id int, channel chan int) {
-	fmt.Printf("gorutina %d\n", id)
+	fmt.Printf("gorutine #%d\n", id)
 
 	// zápis libovolné hodnoty do kanálu
 	channel <- 1
@@ -22,7 +22,7 @@ func main() {
 	// vytvoření gorutiny, předání kanálu
 	go message(1, channel)
 
-	fmt.Println("waiting...")
+	fmt.Println("waiting for other goroutine to finish")
 
 	// blokující čtení z kanálu
 	code, status := <-channel
