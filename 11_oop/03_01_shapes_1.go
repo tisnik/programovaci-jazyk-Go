@@ -1,7 +1,7 @@
 // Koncept rozhraní v programovacím jazyku Go
 //
-// - deklarace rozhraní s jedinou metodou
-// - deklarace uživatelského typu
+// - deklarace rozhraní Shape s jedinou metodou
+// - deklarace uživatelského typu, který nesplňuje rozhraní Shape
 // - funkce akceptující libovolný typ splňující rozhraní Shape
 // - zavolání této funkce s hodnotou, která rozhraní Shape nesplňuje
 
