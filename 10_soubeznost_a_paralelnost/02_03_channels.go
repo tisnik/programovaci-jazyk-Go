@@ -12,7 +12,7 @@ import (
 
 // funkce, která bude zavolána v gorutině
 func message(id int, channel chan int) {
-	fmt.Printf("gorutina %d\n", id)
+	fmt.Printf("gorutine #%d\n", id)
 
 	// počkáme přibližně dvě sekundy
 	time.Sleep(2 * time.Second)
@@ -31,7 +31,7 @@ func main() {
 	go message(2, channel)
 	go message(3, channel)
 
-	fmt.Println("waiting...")
+	fmt.Println("waiting for other three goroutines to finish")
 
 	// blokující čtení z kanálu
 	for range 3 {
