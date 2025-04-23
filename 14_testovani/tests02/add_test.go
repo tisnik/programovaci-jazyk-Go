@@ -1,3 +1,7 @@
+// Jednotkové testy v jazyce Go
+//
+// - implementace jednotkového testu
+
 package main
 
 import "testing"
