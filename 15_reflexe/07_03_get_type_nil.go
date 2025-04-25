@@ -15,6 +15,8 @@ func test_get_type(x any) {
 
 	// zjištění typu hodnoty
 	typ := value.Type()
+
+	// tisk typu
 	fmt.Println("type is: ", typ)
 }
 
