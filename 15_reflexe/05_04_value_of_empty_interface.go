@@ -1,4 +1,8 @@
 // Reflexe v programovacím jazyku Go
+//
+// - funkce reflect.ValueOf a hodnota nil
+// - datový typ reflect.Value
+
 package main
 
 import (
