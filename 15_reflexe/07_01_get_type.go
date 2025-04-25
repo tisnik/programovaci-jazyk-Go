@@ -1,7 +1,7 @@
 // Reflexe v programovacím jazyku Go
 //
-//   - zjištění typu hodnoty uložené do proměnné x
-//     s využitím funkce reflect.ValueOf
+// - zjištění typu hodnoty uložené do proměnné x
+//   s využitím funkce reflect.ValueOf
 
 package main
 
@@ -11,6 +11,7 @@ import (
 )
 
 func main() {
+	// deklarace lokální proměnné
 	x := 42
 
 	// získání informací o hodnotě v čase běhu aplikace
@@ -18,5 +19,7 @@ func main() {
 
 	// zjištění typu hodnoty
 	typ := value.Type()
+
+	// tisk typu hodnoty
 	fmt.Println("type is: ", typ)
 }
