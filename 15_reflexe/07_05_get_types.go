@@ -1,3 +1,7 @@
+// Reflexe v programovacím jazyku Go
+//
+// - zjištění typu pro různé hodnoty
+
 package main
 
 import (
@@ -12,15 +16,27 @@ func test_get_type(x any) {
 }
 
 func main() {
-	x := 42
-	test_get_type(x)
+	a := 42
+	test_get_type(a)
 
-	y := true
-	test_get_type(y)
+	b := '*'
+	test_get_type(b)
 
-	z := "foobar"
-	test_get_type(z)
+	c := 3.14
+	test_get_type(c)
 
-	w := 1 + 2i
-	test_get_type(w)
+	d := 3 + 2i
+	test_get_type(d)
+
+	e := true
+	test_get_type(e)
+
+	f := "foobar"
+	test_get_type(f)
+
+	g := []int{1, 2, 3}
+	test_get_type(g)
+
+	h := [...]int{1, 2, 3}
+	test_get_type(h)
 }
