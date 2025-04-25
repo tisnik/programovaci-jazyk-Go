@@ -1,8 +1,8 @@
 // Reflexe v programovacím jazyku Go
 //
-//   - zjištění typu hodnoty uložené do proměnné
-//     typu any (prázdné rozhraní) s využitím
-//     funkce reflect.ValueOf
+// - zjištění typu hodnoty uložené do proměnné
+//   typu any (prázdné rozhraní) s využitím
+//   funkce reflect.ValueOf
 
 package main
 
@@ -17,6 +17,8 @@ func test_get_type(x any) {
 
 	// zjištění typu hodnoty
 	typ := value.Type()
+
+	// tisk typu hodnoty
 	fmt.Println("type is: ", typ)
 }
 
