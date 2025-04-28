@@ -1,3 +1,7 @@
+// Reflexe v programovacím jazyku Go
+//
+// - zjištění typu pro různé ukazatele
+
 package main
 
 import (
@@ -17,18 +21,25 @@ type user struct {
 }
 
 func main() {
-	var nil1 *int = nil
-	test_get_type(nil1)
+	var ptr1 *int = nil
+	test_get_type(ptr1)
 
-	var nil2 *bool = nil
-	test_get_type(nil2)
+	var ptr2 *rune = nil
+	test_get_type(ptr2)
 
-	var nil3 *string = nil
-	test_get_type(nil3)
+	var ptr3 *float32 = nil
+	test_get_type(ptr3)
 
-	var nil4 *user = nil
-	test_get_type(nil4)
+	var ptr4 *complex64 = nil
+	test_get_type(ptr4)
 
-	var nil5 []int = nil
-	test_get_type(nil5)
+	var ptr5 *bool = nil
+	test_get_type(ptr5)
+
+	var ptr6 *[]int = nil
+	test_get_type(ptr6)
+
+	a := [...]int{1, 2, 3}
+	ptr7 := &a
+	test_get_type(ptr7)
 }
