@@ -37,5 +37,8 @@ func main() {
 	// z JavaScriptu
 	js.Global().Set("printHello", js.FuncOf(PrintHello))
 
+	// realizace nekonečného čekání
+	<-c
+
 	fmt.Println("finished")
 }
