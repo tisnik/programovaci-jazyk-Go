@@ -92,3 +92,45 @@
 // - kontrola počtu argumentů předaných funkci PrintMessage
 // - kontrola typu argumentů předaných funkci PrintMessage
 // - provedení konverze na nativní typy jazyka Go
+//
+// func_call_two_floats.go:
+// - rozhraní mezi jazyky Go a JavaScript
+// - kontrola počtu argumentů předaných funkci PrintSum
+// - kontrola typu argumentů předaných funkci PrintSum
+// - provedení konverze na nativní typy jazyka Go
+//
+// func_call_two_ints.go:
+// - rozhraní mezi jazyky Go a JavaScript
+// - kontrola počtu argumentů předaných funkci PrintSum
+// - kontrola typu argumentů předaných funkci PrintSum
+// - provedení konverze na nativní typy jazyka Go
+//
+// func_call_with_arguments.go:
+// - rozhraní mezi jazyky Go a JavaScript
+// - zobrazení počtu argumentů předaných funkci PrintArguments
+// - zobrazení obsahu argumentů předaných funkci PrintArguments
+//
+// func_call_with_arguments_webassembly.go:
+// - rozhraní mezi jazyky Go a JavaScript
+// - zobrazení počtu argumentů předaných funkci PrintArguments
+// - zobrazení obsahu argumentů předaných funkci PrintArguments
+//
+// hello_world.go:
+// - program typu "Hello, world!"
+// - použití funkce fmt.Println
+//
+// hello_world_2.go:
+// - program typu "Hello, world!"
+// - použití funkce println
+//
+// http_server.go:
+// - implementace HTTP serveru, který dokáže na portu 8080 poskytnout
+//   všechny soubory umístěné v aktuálním adresáři
+// - souborům .js bude automaticky přidělen korektní MIME typ
+//
+// js_interop_1.go:
+// - rozhraní mezi jazyky Go a JavaScript
+//
+// js_interop_2.go:
+// - rozhraní mezi jazyky Go a JavaScript
+//
